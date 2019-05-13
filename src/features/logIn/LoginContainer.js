@@ -64,6 +64,11 @@ export default class LoginContainer extends Component {
               <Text>Sign up</Text>
             </TouchableOpacity>
           </View>
+          <View>
+            <TouchableOpacity onPress={() => this.props.navigation.navigate('Feed')}>
+                <Text>Skip</Text>
+              </TouchableOpacity>
+            </View>
         </View>
       )
     }

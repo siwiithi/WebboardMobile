@@ -1,16 +1,17 @@
 import React from 'react'
 import { createStackNavigator, createAppContainer } from 'react-navigation'
-import { LoginContainer, SignUpContainer } from './features'
+import { LoginContainer, SignUpContainer, FeedContainer } from './features'
 import SignUpComplete from './features/signUp/SignUpComplete'
 
 const AppNavigator = createStackNavigator(
     {
       Login: LoginContainer,
       Signup: SignUpContainer,
-      SignUpComplete: SignUpComplete
+      SignUpComplete: SignUpComplete,
+      Feed: FeedContainer
     },
     {
-      initialRouteName: 'Login',
+      initialRouteName: 'Feed',
     }
   );
 
