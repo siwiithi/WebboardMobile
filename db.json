@@ -10,8 +10,20 @@
     }
   ],
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" },
-    { "id": 2, "title": "The light in your eyes", "author": "joohyuk"}
+    { 
+      "id": 1, 
+      "title": "Myself", 
+      "author": "typicode", 
+      "detail": "Today I feel bad I dont want to do anything. I feel........................",
+      "email": "skawngur.njh@gmail.com"
+    },
+    { 
+      "id": 2, 
+      "title": "The light in your eyes", 
+      "author": "joohyuk",
+      "detail": "Never let go...",
+      "email": "skawngur.njh@gmail.com"
+    }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
