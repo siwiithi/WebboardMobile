@@ -13,7 +13,7 @@ const AppNavigator = createStackNavigator(
       CreatePost: CreatePostContainer
     },
     {
-      initialRouteName: 'Welcome',
+      initialRouteName: 'Signup',
     }
   );
 

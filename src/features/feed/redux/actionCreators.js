@@ -2,7 +2,6 @@ import axios from 'axios'
 import { GET_POST_LIST_REQUEST, GET_POST_LIST_SUCCESS, GET_POST_LIST_FAILURE } from './actionTypes'
 
 export const getPostList = () => (dispatch) => {
-  console.log('getPostList')
   dispatch({type: GET_POST_LIST_REQUEST})
   return axios({
     method: 'get',
