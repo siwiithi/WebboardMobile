@@ -13,7 +13,6 @@ class SignUpComplete extends Component {
 }
 
 export const mapStateToProps = state => {
-  console.log('state', state)
   return({})
 }
 

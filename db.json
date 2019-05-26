@@ -1,32 +1,53 @@
 {
   "accounts": [
-    { 
+    {
       "id": 1,
-      "firstname": "Joohyuk", 
-      "surname": "Nam", 
-      "username": "skawngur", 
-      "email": "skawngur.njh@gmail.com", 
+      "firstname": "Joohyuk",
+      "surname": "Nam",
+      "username": "skawngur",
+      "email": "skawngur.njh@gmail.com",
       "password": "Hyuk123456"
     }
   ],
   "posts": [
-    { 
-      "id": 1, 
-      "title": "Myself", 
-      "author": "typicode", 
-      "detail": "Today I feel bad I dont want to do anything. I feel........................",
-      "email": "skawngur.njh@gmail.com"
+    {
+      "author": "Nam JooHyuk",
+      "title": "The light in your eyes",
+      "email": "Hyukkie.n@gmail.com",
+      "detail": "Sad movie",
+      "id": 6
     },
-    { 
-      "id": 2, 
-      "title": "The light in your eyes", 
-      "author": "joohyuk",
-      "detail": "Never let go...",
-      "email": "skawngur.njh@gmail.com"
+    {
+      "author": "Woojin",
+      "title": "AB6IX",
+      "email": "Woojin@gmail.com",
+      "detail": "Fslkflklkgdlkgslkgk’agkdlkgldkgldkgldklgskdlgkdlgkdlkgldkgldkglkdglkdslgkdlgkdlgkdlkgldkglsdkgldkgldg",
+      "id": 7
+    },
+    {
+      "author": "Nam JooHyuk",
+      "title": "The light in your eyes",
+      "email": "Hyukkie.n@gmail.com",
+      "detail": "I love nam joo hyuk",
+      "id": 8
+    },
+    {
+      "author": "Nam JooHyuk",
+      "title": "The light in your eyes",
+      "email": "Hyukkie.n@gmail.com",
+      "detail": "I love nam joo hyuk so much since",
+      "id": 9
     }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "selectedPost": {
+    "id": 9,
+    "author": "Nam JooHyuk",
+    "title": "The light in your eyes",
+    "email": "Hyukkie.n@gmail.com",
+    "detail": "I love nam joo hyuk so much"
+  },
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
 }
