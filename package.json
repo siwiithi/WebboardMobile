@@ -14,7 +14,7 @@
     "express": "^4.16.4",
     "express-validator": "^5.3.1",
     "mongodb": "^3.2.3",
-    "mongoose": "^5.5.1",
+    "mongoose": "^5.7.5",
     "react": "16.8.3",
     "react-native": "0.59.4",
     "react-native-gesture-handler": "^1.1.0",
